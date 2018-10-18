@@ -17,18 +17,11 @@
     
     <bean id="myFortune"
     class="com.spring.demo.HappyFortuneService">
-    
-    
-    
-    
     </bean>
     
-    
-    
-    
-    
+   
  	<bean id="myCoach"
- 		class="com.spring.demo.CricketCoach">	 	
+ 		class="com.spring.demo.BaseballCoach">	 	
  		<constructor-arg ref="myFortune"/>	
  	</bean>
 
